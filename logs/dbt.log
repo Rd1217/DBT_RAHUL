@@ -1,0 +1,25 @@
+
+
+============================== 2023-11-09 18:21:46.377658 | c3818b2e-584e-4ff8-9872-9299ccbcb5b5 ==============================
+18:21:46.377658 [info ] [MainThread]: Running with dbt=1.1.5
+18:21:46.377658 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': 'C:\\Users\\Rahul\\.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'cache_selected_only': False, 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+18:21:46.377658 [debug] [MainThread]: Tracking: tracking
+18:21:46.393296 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002513013E490>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002513013EE50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002513013E3D0>]}
+18:22:04.683130 [debug] [MainThread]: Starter project path: C:\Users\Rahul\AppData\Local\Programs\Python\Python39\lib\site-packages\dbt\include\starter_project
+18:22:07.611749 [info ] [MainThread]: 
+Your new dbt project "dem" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+18:22:07.611749 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002513013E280>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002513013E250>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002513013EF40>]}

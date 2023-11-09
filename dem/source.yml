@@ -1,0 +1,27 @@
+# version: 2
+# sources:
+# - name: public
+#   quoting:
+#     database: true
+#     schema: false
+#     identifier: false
+#   tables:
+#   - name: _airbyte_raw_oxygen_history_buffer
+
+# source.yml
+
+version: 4
+sources:
+  - name: OxygenBuffer
+    connection_configuration:
+      connectorSourceConfiguration:
+        username: vuedashboard-0042
+        password: 1p5t415mxi5l
+        host: oxygen-aurora2-cluster.cluster-cladr7eisf0t.us-east-1.rds.amazonaws.com
+        database: oxygen_history
+        schema: oxygen_history
+      ssl: true
+      # Add any other necessary configuration options
+    tables:
+      - name: oxygen_history_buffer
+
